@@ -4,6 +4,22 @@
 
 [1]: https://pypi.org/project/google-cloud-ndb/#history
 
+## [1.9.0](https://www.github.com/googleapis/python-ndb/compare/v1.8.0...v1.9.0) (2021-05-26)
+
+
+### Features
+
+* don't flush entire global cache on transient errors ([#654](https://www.github.com/googleapis/python-ndb/issues/654)) ([cbf2d7d](https://www.github.com/googleapis/python-ndb/commit/cbf2d7de3d532ce08bd0d25fa18b5226afd216b9))
+
+
+### Bug Fixes
+
+* correct inconsistent behavior with regards to namespaces ([#662](https://www.github.com/googleapis/python-ndb/issues/662)) ([cf21a28](https://www.github.com/googleapis/python-ndb/commit/cf21a285e784019f9ba0f2a89a7acc4105fdcd2a)), closes [#661](https://www.github.com/googleapis/python-ndb/issues/661)
+* correctly decode falsy values in legacy protocol buffers ([#628](https://www.github.com/googleapis/python-ndb/issues/628)) ([69a9f63](https://www.github.com/googleapis/python-ndb/commit/69a9f63be89ca50bbf0a42d0565a9f1fdcf6d143)), closes [#625](https://www.github.com/googleapis/python-ndb/issues/625)
+* properly handle error when clearing cache ([#636](https://www.github.com/googleapis/python-ndb/issues/636)) ([d0ffcf3](https://www.github.com/googleapis/python-ndb/commit/d0ffcf3517fe357d6689943265b829258c397d93)), closes [#633](https://www.github.com/googleapis/python-ndb/issues/633)
+* retry connection errors with memcache ([#645](https://www.github.com/googleapis/python-ndb/issues/645)) ([06b466a](https://www.github.com/googleapis/python-ndb/commit/06b466a8421ff7a5586164bf4deb43d6bcbf0ef4)), closes [#620](https://www.github.com/googleapis/python-ndb/issues/620)
+* support ordering by key for multi queries ([#630](https://www.github.com/googleapis/python-ndb/issues/630)) ([508d8cb](https://www.github.com/googleapis/python-ndb/commit/508d8cb8c65afe5e885c1fdba4dce933d52cfd4b)), closes [#629](https://www.github.com/googleapis/python-ndb/issues/629)
+
 ## [1.8.0](https://www.github.com/googleapis/python-ndb/compare/v1.7.3...v1.8.0) (2021-04-06)
 
 
